@@ -9,7 +9,7 @@ pipeline {
 
     stage('Log') {
       steps {
-        bat 'dir'
+        bat 'ls -la'
       }
     }
 
