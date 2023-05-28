@@ -10,6 +10,7 @@ pipeline {
     stage('Logs') {
       steps {
         sh 'ls -la'
+        bat 'dir'
       }
     }
 
